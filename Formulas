@@ -1,0 +1,2 @@
+#Getting the values on the If statement basis
+=IF(OR($F2="Pixel 2", "Pixel","SM-G970F"),"CO","BYOD")
