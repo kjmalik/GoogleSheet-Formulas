@@ -1,2 +1,4 @@
 #Getting the values on the If statement basis
-=IF(OR($F2="Pixel 2", "Pixel","SM-G970F"),"CO","BYOD")
+=IF(OR($F2="Pixel 2", $F2="Pixel",$F2="SM-G970F"),"CO","BYOD")
+
+=IF(OR($F5="D5803",$F5="Pixel 2",$F5="Pixel",$F5="Pixel XL",$F5="Pixel 2 XL",$F5="Pixel 3",$F5="Pixel 3 XL", $F5="SM-G970F",$F5="SM-A500FU",$F5="SM-A505FN",$F5="SM-A520F"),"Company Owned","BYOD")
